@@ -3,7 +3,7 @@
   "displayName": "codesongnew",
   "description": "Fork of Connor Peet codesong theme with new improvements for VS Code",
   "publisher": "vartikus1337",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.91.0"
   },
