@@ -1,0 +1,42 @@
+:root {
+    --left: 10px;
+}
+
+@keyframes show {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    max-width: 1080px;
+}
+
+.left {
+    left: var(--left);
+}
+
+header {
+    nav {
+        display: flex;
+        gap: 10px;
+    }
+
+    li:first-child {
+        margin-top: 30px;
+    }
+}
+
+header::after {
+    content: none;
+}
+

@@ -2,6 +2,7 @@
   "name": "codesongnew",
   "displayName": "codesongnew",
   "description": "Fork of Connor Peet codesong theme with new improvements for VS Code",
+  "publisher": "vartikus1337",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.91.0"
@@ -21,5 +22,5 @@
         "path": "./themes/codesongnew-color-theme.json"
       }
     ]
-  }
+  } 
 }

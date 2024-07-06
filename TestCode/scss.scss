@@ -1,0 +1,21 @@
+@keyframes show {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.#{prefix}testSection {
+  animation: show duration timing-function delay iteration-count direction fill-mode;
+  display: flex;
+  flex-direction: column;
+  background-color: 20px;
+  cursor: pointer;
+  timeline-scope: 12px;
+  width: 123px;
+  transition: width 3s ease-in-out;
+  &__single {
+    background-color: $radiusColor;
+  }
+}

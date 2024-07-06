@@ -1,16 +1,19 @@
-# codesongnew README
+# codesongnew
 
-## Working with Markdown
+Fork of Connor Peet codesong theme with new improvements for VS Code
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+> [!IMPORTANT]  
+> Recommended for use with Cascadia Code font 
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+> [!NOTE]  
+> Tested for the use of css, js (did not check and changed the work with classes), scss, jsx (not very much)
 
-## For more information
+![CSS](public/CSS.png)
+![HTML](public/HTML.png)
+![JS](public/JS.png)
+![ReactSimple](public/ReactSimple.png)
+![SCSS](public/SCSS.png)
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+> [!CAUTION]
+> Work is currently underway to provide additional syntax coloring for React
+> ![ReactProblems](public/ReactProblems.png)
