@@ -1,0 +1,9 @@
+{
+    "scopeName": "source.js.custom",
+    "patterns": [
+        {
+            "name": "user.constant.caps",
+            "match": "(const\\s+)?[A-Z_][A-Z0-9_]*"
+        }
+    ]
+}
