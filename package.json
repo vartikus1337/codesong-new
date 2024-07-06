@@ -9,6 +9,10 @@
   "categories": [
     "Themes"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vartikus1337/codesong-new.git"
+  },
   "contributes": {
     "themes": [
       {
