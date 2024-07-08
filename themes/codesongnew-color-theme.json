@@ -417,21 +417,21 @@
         "foreground": "#DB784D",
       }
     },
-	{
-		"name": "const value CAPS",
-		"scope": "variable.other.constant.object.js",
-		"settings": {
-		  "foreground": "#DB784D",
-		}
-	},
-	{
-		"name": "const user variable CAPS",
-		"scope": "user.constant.caps",
-		"settings": {
-		  "foreground": "#DB784D",
-		}
-	},
-    // JSX 
+    {
+      "name": "const value CAPS",
+      "scope": "variable.other.constant.object.js",
+      "settings": {
+        "foreground": "#DB784D",
+      }
+    },
+    {
+      "name": "const user variable CAPS",
+      "scope": "user.constant.caps",
+      "settings": {
+        "foreground": "#DB784D",
+      }
+    },
+    // JSX
     {
       "name": "Tag in JSX",
       "scope": "variable.other.readwrite.alias.js.jsx",
@@ -439,6 +439,22 @@
         "foreground": "#00a8c6",
       }
     },
+    {
+      "name": "Attribute value in JSX tag",
+      "scope": "meta.tag.attributes.js.jsx",
+      "settings": {
+        "foreground": "#DB784D",
+        "fontStyle": "italic"
+      }
+	  },
+    {
+      "name": "Attribute in JSX tag",
+      "scope": "entity.other.attribute-name.js.jsx",
+      "settings": {
+        "foreground": "#df531c",
+        "fontStyle": "italic"
+      }
+	  },
     {
       "name": "import value JSX",
       "scope": "entity.name.tag.js.jsx",
@@ -513,9 +529,9 @@
         "fontStyle": "italic"
       }
     },
-	  // Python meta.attribute.python
+	  // Python
     {
-      "name": "attributes HTML",
+      "name": "attributes Python",
       "scope": ["meta.attribute.python"],
       "settings": {
         "foreground": "#DB784D",
@@ -545,43 +561,43 @@
     "editorWidget.resizeBorder": "#6d5841",
     "debugToolBar.background": "#332a20",
     "debugToolBar.border": "#ffffff00",
-	// Editor
-	"editor.background": "#36312C",
-	"editorCursor.foreground": "#f8f8f0",
-	"editor.foreground": "#EBD1B7",
-	"editorWhitespace.foreground": "#3b3a32",
-	"editor.lineHighlightBackground": "#45403B",
-	"editor.selectionBackground": "#DB784D4D",
-	"activityBar.background": "#2F2B26",
-	"activityBarBadge.background": "#D76538",
-	"activityBar.foreground": "#7a7a7a",
-	"statusBar.background": "#36312C",
-	"statusBar.foreground": "#7a7a7a",
-	"statusBar.debuggingForeground": "#fff",
-	"editorWarning.foreground": "#F8BB39",
-	"editorInfo.foreground": "#00A8C6",
-	"debugIcon.breakpointForeground": "#D76538",
-	"editorError.foreground": "#D76538",
-	"sash.hoverBorder": "#db784d85",
+    // Editor
+    "editor.background": "#36312C",
+    "editorCursor.foreground": "#f8f8f0",
+    "editor.foreground": "#EBD1B7",
+    "editorWhitespace.foreground": "#3b3a32",
+    "editor.lineHighlightBackground": "#45403B",
+    "editor.selectionBackground": "#DB784D4D",
+    "activityBar.background": "#2F2B26",
+    "activityBarBadge.background": "#D76538",
+    "activityBar.foreground": "#7a7a7a",
+    "statusBar.background": "#36312C",
+    "statusBar.foreground": "#7a7a7a",
+    "statusBar.debuggingForeground": "#fff",
+    "editorWarning.foreground": "#F8BB39",
+    "editorInfo.foreground": "#00A8C6",
+    "debugIcon.breakpointForeground": "#D76538",
+    "editorError.foreground": "#D76538",
+    "sash.hoverBorder": "#db784d85",
 
 
-	"editorBracketHighlight.foreground1": "#D76538",
-	"editorBracketHighlight.foreground2": "#F8BB39",
-	"editorBracketHighlight.foreground3": "#00A8C6",
-	"editorBracketHighlight.foreground4": "#95CC5E",
-	"editorBracketHighlight.foreground5": "#e61f44",
-	"editorBracketHighlight.foreground6": "#D76538",
+    "editorBracketHighlight.foreground1": "#D76538",
+    "editorBracketHighlight.foreground2": "#F8BB39",
+    "editorBracketHighlight.foreground3": "#00A8C6",
+    "editorBracketHighlight.foreground4": "#95CC5E",
+    "editorBracketHighlight.foreground5": "#e61f44",
+    "editorBracketHighlight.foreground6": "#D76538",
 
-	
-	"focusBorder": "#745105",
+    
+    "focusBorder": "#745105",
     "selection.background": "#ad6a0040",
-	"progressBar.background": "#F8BB39",
-	"scrollbar.shadow": "#3b342e", 
-	"editorLink.activeForeground": "#F8BB39",
-	"editorBracketMatch.border": "#f8bc399d",
-	"editorCodeLens.foreground": "#ffb71af9",
+    "progressBar.background": "#F8BB39",
+    "scrollbar.shadow": "#3b342e", 
+    "editorLink.activeForeground": "#F8BB39",
+    "editorBracketMatch.border": "#f8bc399d",
+    "editorCodeLens.foreground": "#ffb71af9",
 
-	// Editor Suggest
+	  // Editor Suggest
     "editorSuggestWidget.background": "#322e2a",
     "editorSuggestWidget.border": "#342c2c",
     "editorSuggestWidget.selectedForeground": "#ebd1b7",

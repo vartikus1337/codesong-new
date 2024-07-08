@@ -11,9 +11,5 @@ Fork of Connor Peet codesong theme with new improvements for VS Code
 ![CSS](public/CSS.png)
 ![HTML](public/HTML.png)
 ![JS](public/JS.png)
-![ReactSimple](public/ReactSimple.png)
+![React](public/React.png)
 ![SCSS](public/SCSS.png)
-
-> [!CAUTION]
-> Work is currently underway to provide additional syntax coloring for React
-> ![ReactProblems](public/ReactProblems.png)
