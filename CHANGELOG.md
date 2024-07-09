@@ -1,5 +1,15 @@
 # Change Log
 
+## [2.0.0] - 09.07.2024
+
+### Added
+
+- add styles for YAML file
+  
+### Changed 
+
+- refactor readme
+
 ## [1.0.0] - 08.07.2024
 
 ### Added

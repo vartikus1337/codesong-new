@@ -1,0 +1,42 @@
+---
+string: "Hello, YAML "
+number: 123
+float: 12.3
+boolean: true
+nullExample: null
+hexadecimal: 0x7B
+decimal: +12.3
+datetime:
+  date: 2023-08-30
+!Newtype 1
+  - !Tuple [0, 0, 0]
+  - !Struct {x: 1.0, z: 2.0}
+list:
+  - el 1
+  - el 2
+  - el 3
+map:  
+  key: value
+  anotherKey: anotherValue
+mapping: {"mapping": JSON style}
+sequence: ["a", "JSON", "style", "sequence"]
+nestedMap:
+  parentKey:
+    childKey: childValue
+listOfMaps:
+  - key1: value1
+  - key2: value2
+anchorExample: &myAnchor "I use anchor"
+referenceExample: *myAnchor  # This is a reference to the anchor value
+baseMap: &baseMap
+  name: baseName
+  age: 20
+derivedMap:
+  <<: *baseMap
+  age: 25  # Redefining the age value
+literal: |
+          This is a multiline string.
+          Newlines are preserved. A literal string.
+folded: >
+        This is a multiline string where
+        newlines become spaces. A folded string.

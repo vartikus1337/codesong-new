@@ -537,7 +537,88 @@
         "foreground": "#DB784D",
         "fontStyle": "italic"
       }
-    }
+    },
+	  // YAML
+    {
+      "name": "Special punctuation, keyword YAML",
+      "scope": ["entity.other.document.begin.yaml",
+                "entity.name.type.anchor.yaml",
+                "punctuation.definition.alias.yaml", 
+                "punctuation.definition.anchor.yaml", 
+                "constant.language.merge.yaml", 
+                "keyword.control.flow.block-scalar.literal.yaml",
+                "keyword.control.flow.block-scalar.folded.yaml"],
+      "settings": {
+        "foreground": "#df531c",
+      }
+    },
+    {
+      "name": "Alias, Anchor YAML",
+      "scope": ["entity.name.type.anchor.yaml", "variable.other.alias.yaml"],
+      "settings": {
+        "foreground": "#df531c",
+        "fontStyle": "italic" 
+      }
+    },
+    {
+      "name": "Boolean, Null YAML",
+      "scope": ["constant.language.null.yaml", "constant.language.boolean.yaml"],
+      "settings": {
+        "foreground": "#df531c",
+      }
+    },
+    {
+      "name": "Tag YAML",
+      "scope": ["entity.name.tag.yaml"],
+      "settings": {
+        "foreground": "#DB784D",
+      }
+    },
+    {
+      "name": "Map YAML",
+      "scope": ["meta.flow-mapping.yaml"],
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Sequence YAML",
+      "scope": ["meta.flow-sequence.yaml"],
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+	  {
+      "name": "Numeric YAML",
+      "scope": ["constant.numeric.integer.yaml", "constant.numeric.float.yaml"],
+      "settings": {
+        "foreground": "#95CC5E",
+      }
+    },
+    {
+      "name": "Sequence punctuation YAML",
+      "scope": ["punctuation.definition.block.sequence.item.yaml"],
+      "settings": {
+          "foreground": "#60A365",
+          "fontStyle": "italic"
+      }
+	  },
+    {
+      "name": "Time YAML",
+      "scope": ["constant.other.timestamp.yaml"],
+      "settings": {
+          "foreground": "#60A365",
+          "fontStyle": "italic"
+      }
+	  },
+    {
+      "name": "Storage tag YAML",
+      "scope": ["storage.type.tag-handle.yaml"],
+      "settings": {
+          "foreground": "#DB784D",
+          "fontStyle": "underline"
+      }
+	  },
   ],
 	"colors": {
     // Title bar
