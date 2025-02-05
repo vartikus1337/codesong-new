@@ -1,5 +1,19 @@
 # Change Log
 
+## [3.0.0] - 06.02.2025
+
+### Added
+
+- add styles for TypeScript - .tsx for the most part
+- сhanged the color of Border at the window when entering the interfaces
+- add png react-tsx code with new styles
+
+### Changed 
+
+- The first Foreground Color of Brackets is changed to improve color combination
+- The color of Backround Mernu is changed (it has become a little transparent)
+- Background color when choosing a file in the side panel
+
 ## [2.0.0] - 09.07.2024
 
 ### Added

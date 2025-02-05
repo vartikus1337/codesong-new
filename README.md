@@ -16,6 +16,8 @@ Fork of Connor Peet codesong theme with new improvements for VS Code
 
 ![React](public/React.png)
 
+![React - TypeScript](public/ReactTypeScript.png)
+
 ![SCSS](public/SCSS.png)
 
 ![YAML](public/YAML.png)
