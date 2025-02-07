@@ -629,14 +629,7 @@
 	},
 	{
 		"name": "Basic variable TypeScript",
-		"scope": ["storage.type.tsx", "storage.type.interface.tsx"],
-		"settings": {
-			"foreground": "#01ff12",
-		}
-	},
-	{
-		"name": "Basic variable TypeScript",
-		"scope": ["meta.var.expr.tsx", "constant.language.undefined.tsx", "variable.other.constant.tsx"],
+		"scope": ["meta.var.expr.tsx", "constant.language.undefined.tsx", "variable.other.constant.tsx", "storage.type.tsx", "storage.type.interface.tsx"],
 		"settings": {
 			"foreground": "#95CC5E",
 		}

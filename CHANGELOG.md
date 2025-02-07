@@ -1,5 +1,12 @@
 # Change Log
 
+## [3.0.1] - 08.02.2025
+
+### Changed
+
+- the color of the constant from acid to a more hormone 
+- png react-tsx
+
 ## [3.0.0] - 06.02.2025
 
 ### Added
@@ -8,7 +15,7 @@
 - сhanged the color of Border at the window when entering the interfaces
 - add png react-tsx code with new styles
 
-### Changed 
+### Changed
 
 - The first Foreground Color of Brackets is changed to improve color combination
 - The color of Backround Mernu is changed (it has become a little transparent)
